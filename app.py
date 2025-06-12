@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load model and preprocessing tools
-model = joblib.load("C:/ptm/model_deteksi_ptm_rf.pkl")
+model = joblib.load("model_deteksi_ptm_rf.pkl")
 
 scaler = joblib.load("scaler.pkl")
 label_encoders = joblib.load("label_encoders.pkl")
